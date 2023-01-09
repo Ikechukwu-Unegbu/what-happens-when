@@ -1,4 +1,4 @@
-What happens when....
+What happens when...
 ====================
 
 This repository is an attempt to answer the age-old interview question "What
@@ -413,6 +413,13 @@ control`_. This varies depending on the sender; the most common algorithms are
 * After reaching the slow-start threshold, the window increases additively for
   each packet acknowledged. If a packet is dropped, the window reduces
   exponentially until another packet is acknowledged.
+  
+  
+Firewalls
+---------
+The next step in the process is for the request to pass through any firewalls that are in place. A firewall is a security system that controls incoming and outgoing network traffic based on predetermined security rules. Its purpose is to protect the network from unauthorized access and to prevent malicious traffic from entering the network.
+The request for the Google homepage must pass through any firewalls that are in place in order to reach the server. If the request is not permitted by the firewall's security rules, it will be blocked and the website will not be loaded.
+
 
 HTTP protocol
 -------------
